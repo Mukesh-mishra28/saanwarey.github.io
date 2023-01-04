@@ -1,0 +1,33 @@
+2023-01-04T12:25:14+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\saanwareyfashion\wp-content\plugins\elementor\includes\template-library\sources\local.php:864
+Stack trace:
+#0 C:\xampp\htdocs\saanwareyfashion\wp-content\plugins\elementor\includes\template-library\manager.php(441): Elementor\TemplateLibrary\Source_Local->import_template('contact-form-05...', 'C:\\xampp\\tmp\\ph...')
+#1 C:\xampp\htdocs\saanwareyfashion\wp-content\plugins\elementor\includes\template-library\manager.php(630): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#2 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(308): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#3 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\saanwareyfashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\saanwareyfashion\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\xampp\htdocs\saanwareyfashion\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 864
+
+2023-01-04T13:17:46+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp\htdocs\saanwareyfashion\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-widget.php(457): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp\htdocs\saanwareyfashion\wp-admin\includes\ajax-actions.php(2395): WP_Widget->update_callback(Array)
+#2 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(308): wp_ajax_save_widget('')
+#3 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\saanwareyfashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\saanwareyfashion\wp-admin\admin-ajax.php(188): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in C:\xampp\htdocs\saanwareyfashion\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2023-01-04T13:18:01+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp\htdocs\saanwareyfashion\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-widget.php(457): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp\htdocs\saanwareyfashion\wp-admin\includes\ajax-actions.php(2395): WP_Widget->update_callback(Array)
+#2 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(308): wp_ajax_save_widget('')
+#3 C:\xampp\htdocs\saanwareyfashion\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\saanwareyfashion\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\saanwareyfashion\wp-admin\admin-ajax.php(188): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in C:\xampp\htdocs\saanwareyfashion\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
